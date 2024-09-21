@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap');
+.kameron-uniquifier {
+    font-family: "Kameron", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border: none !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #f1f1f1;
+    border: none;
+    overflow-x: hidden;
+}
+
+.header {
+    /* position: fixed !important; */
+    z-index: 0;
+    width: 100% !important;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    width: 100vw;
+    min-height: 20vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0;
+    font-size: 100%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 1vw;
+}
+/* text */
+.pXlarge{
+    font-size: x-large;
+}
+.breakAll{
+    word-break: break-all;
+}
+/* text */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.footer p{
+    word-break: break-all;
+    font-size: 100%;
+}
+.hidden {
+    display: none;
+}
+
+.parallaxJungleman {
+    background-image: url(../images/jungleman.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallaxOpendoor{
+    background-image: url(../images/opendoor.jpg);
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+@media (max-width: 450px) {
+    .parallax{
+        width: 100vw;
+        height: 100vh;
+        background-color: #333;
+        background-size: contain;
+    }}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    height: 200vh; /* Height of content to enable scrolling */
+    padding: 0;
+    margin: 0;
+}
+/* Ensure content is readable and centered */
+.content {
+    min-height: 100vh; /* Adjust the height to ensure content is visible on 
+    smaller screens */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
